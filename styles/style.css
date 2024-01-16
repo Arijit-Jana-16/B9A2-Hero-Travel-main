@@ -1,0 +1,57 @@
+/* shared css */
+body{
+    
+}
+.btn-primary{
+
+}
+input{
+ padding: 1%;   
+ margin: 2%;
+}
+.input-primary{
+    
+}
+.input-icon{
+    background-image: url(../Images/angle-down-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 0.1rem 0.1rem; 
+    background-position-x: 95%;
+    overscroll-behavior-y: 50%  ;
+}
+/* header section css */
+header{
+    width: 80%;
+    margin: 0 auto;
+   height: vh;
+}
+#header-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.354)), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 10%;
+}
+#banner-form{
+    background-color: rgba(255, 255, 255, 0.346);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+/* mobile responsive codes */
+
+@media only screen and (max-width: 600px) {
+    #banner-form{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 5%;
+    } 
+}
